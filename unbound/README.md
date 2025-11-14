@@ -1,1 +1,1 @@
-This repository contains the Unbound DNS add-on for Home Assistant. It's forked by me for private testing, so please use the original Addon https://github.com/cgfm/Unbound-DNS-AddOn.
+This repository contains the Unbound DNS add-on for Home Assistant. It's forked by me for private testing, so please use the original Addon https://github.com/cgfm/Unbound-DNS-AddOn. This fork fixes the issue that the custom unbound.conf won't be loaded. Using this fork, a folder will be created under homeassistant/addon_configs/ will be created, where you can put your custom unbound.conf.
