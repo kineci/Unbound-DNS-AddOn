@@ -12,5 +12,8 @@ boot: auto
 ports:
   5353/tcp: 5353
   5353/udp: 5353
+map:
+  - type: addon_config
+    read_only: false
 options: {}
 schema: {}
